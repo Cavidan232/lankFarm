@@ -1,0 +1,148 @@
+
+  
+  /* Məhsulların olduğu sahə */
+  .our-products-area {
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  .section-heading p {
+    font-size: 20px;
+    color: #388e3c;
+    text-transform: uppercase;
+  }
+  
+  .section-heading h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .section-heading img {
+    width: 100px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Məhsul kartları */
+  .single-product-area {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .single-product-area:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-thumbnail {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .product-thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-thumbnail:hover img {
+    transform: scale(1.1);
+  }
+  
+  .product-tags {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: #388e3c;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .product-tags.bg-danger {
+    background-color: #f44336;
+  }
+  
+  .product-meta-data {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product-meta-data a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .product-meta-data a:hover {
+    color: #388e3c;
+  }
+
+  .product-desc {
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .product-title:hover {
+    color: #388e3c;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .price span {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  .gotoshop-btn {
+    margin-top: 50px;
+  }
+  
+  .gotoshop-btn .btn {
+    background-color: #388e3c;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gotoshop-btn .btn:hover {
+    background-color: #2e7d32;
+  }
+  .section-heading img {
+    content: url('../image/decor2.png');
+    display: block;
+    margin: 40px auto 0;
+    min-width: 200px;
+  }
+  
