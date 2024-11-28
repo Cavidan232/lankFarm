@@ -4,8 +4,43 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: poppins, sans-serif;
+}
+
+i {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(45deg, #ff6347, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 i {
@@ -32,17 +67,17 @@ button {
   right: -250px;
   width: 250px;
   height: 100vh;
-  background-color: #4CAF50;
+  background-color: #219525;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   padding-top: 60px;
   -webkit-transition: right 0.3s ease-in-out;
   transition: right 0.3s ease-in-out;
@@ -472,4 +507,109 @@ button {
 
 .footer-bottom p {
   margin: 0;
+}
+
+/* Fermer Profil Üslubu */
+.farmer-profile-area {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #388e3c;
+}
+
+.profile-role {
+  font-size: 18px;
+  color: #555;
+}
+
+.profile-contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.profile-contact i {
+  margin-right: 10px;
+  color: #388e3c;
+}
+
+.profile-section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #388e3c;
+  margin-top: 30px;
+}
+
+.profile-products {
+  list-style: none;
+  padding-left: 0;
+}
+
+.profile-products li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.profile-social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #388e3c;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #f44336;
+}
+
+.profile-action-buttons {
+  margin-top: 40px;
+}
+
+.profile-action-buttons .btn {
+  background-color: #388e3c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.profile-action-buttons .btn:hover {
+  background-color: #2e7d32;
 }/*# sourceMappingURL=style.css.map */
