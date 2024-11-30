@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mağaza | Fermer Məhsulları</title>
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- Stil faylı -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LankonFarm.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-success" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LankFarm</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Ana Səhifə</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Endirimlər</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Məhsullar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Əlaqə</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-circle"></i> Profil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart"></i> Səbət</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Məhsul Bölməsi -->
+    <section class="shop-section py-5 mt-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Məhsullarımız</h2>
+            <div class="row">
+                <!-- Məhsul Kartı -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="./assets/image/p4.jpg" class="img-fluid" alt="Alma">
+                        <h3>Qırmızı Alma</h3>
+                        <p class="price">5 AZN / kq</p>
+                        <button class="btn btn-success">Səbətə Əlavə Et</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="./assets/image/p3.jpg" class="img-fluid" alt="Pomidor">
+                        <h3>Təzə Pomidor</h3>
+                        <p class="price">3 AZN / kq</p>
+                        <button class="btn btn-success">Səbətə Əlavə Et</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="./assets/image/p1.jpg" class="img-fluid" alt="Bal">
+                        <h3>Təbii Bal</h3>
+                        <p class="price">15 AZN / litr</p>
+                        <button class="btn btn-success">Səbətə Əlavə Et</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Bölməsi -->
+    <footer class="footer-area">
+        <div class="container">
+          <div class="row">
+    
+            <!-- Footer Haqqımızda Bölməsi -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget mb-50">
+                <h4 class="footer-title">Haqqımızda</h4>
+                <p>Biz təzə kənd təsərrüfatı məhsullarının aparıcı tədarükçüsüyük və sizə ən yüksək keyfiyyətli məhsullar və
+                  ən yaxşı xidməti təqdim etməyə sadiqik.</p>
+                <a href="#" class="footer-btn">Daha Çox Öyrən</a>
+              </div>
+            </div>
+    
+            <!-- Footer Sürətli Keçidlər -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget mb-50">
+                <h4 class="footer-title">Sürətli Keçidlər</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Ana Səhifə</a></li>
+                  <li><a href="#">Mağaza</a></li>
+                  <li><a href="#">Haqqımızda</a></li>
+                  <li><a href="#">Əlaqə</a></li>
+                  <li><a href="#">Bloq</a></li>
+                </ul>
+              </div>
+            </div>
+    
+            <!-- Footer Əlaqə Bölməsi -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget mb-50">
+                <h4 class="footer-title">Bizimlə Əlaqə</h4>
+                <ul class="footer-contact">
+                  <li><i class="icon_phone"></i> +994 55 123 45 67</li>
+                  <li><i class="icon_mail_alt"></i> info@sizinvebsayt.com</li>
+                  <li><i class="icon_pin_alt"></i> 123 Fermer Yolu, Şəhər, Ölkə</li>
+                </ul>
+              </div>
+            </div>
+    
+            <!-- Footer Sosial Media Bölməsi -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-widget mb-50">
+                <h4 class="footer-title">Bizi İzləyin</h4>
+                <div class="footer-social-icons">
+                  <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="footer-bottom">
+                <p>&copy; 2024 Sizin Şirkət. Bütün Hüquqlar Qorunur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

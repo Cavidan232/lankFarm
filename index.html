@@ -37,7 +37,7 @@
               <a class="nav-link" href="#">Endirimlər</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Məhsullar</a>
+              <a class="nav-link" href="./shop.html">Məhsullar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Əlaqə</a>
@@ -61,16 +61,80 @@
 
   <!-- Banner -->
   <section class="banner">
-    <div class="container bannerChild">
-      <div class="left">
-        <div class="text">
-          <h1>Lənkəranda axtardığınız bütün məhsullar</h1>
-          <span>ən sərfəli qiymətdə</span>
-          <button class="btn">Ətraflı</button>
-        </div>
-      </div>
+    <!-- ! =============== banner sol teref ============ -->
+    <div class="container banner1">
+      <div class="banner-left">
+        <pre><h1>Sizdə artıq <span>təbii</span>
+məhsullar almaq istəyirsiniz?</h1></pre>
+
+        <form action="#">
+            <input type="search" placeholder="Məhsul axtarışı...">
+            <input type="submit" value="Axtar">
+        </form>
     </div>
-  </section>
+    <!-- ! =============== banner sağ teref ============ -->
+    <div class="banner-right">
+        <div class="slider-container">
+            <button class="prev slide-bt" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slider">
+                <!-- ! =============== slide 1 ============ -->
+                <div class="slide">
+                    <img src="./assets/image/feyxoa.jpg" alt="Məhsul 1">
+                    <h1>Lənkəran feyxoası:</h1>
+                    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                    <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                    <h3>20% endirim</h3>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                    </ul>
+                    <h4>Satıcı: Akif Vəlizadə</h4>
+                    <button class="more-info-button">Ətraflı</button>
+                </div>
+                <!-- ! =============== slide 2 ============ -->
+                <div class="slide">
+                    <img src="./assets/image/kartof.jpg" alt="Məhsul 1">
+                    <h1>Gədəbəy kartofu:</h1>
+                    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                    <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                    <h3>20% endirim</h3>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                    </ul>
+                    <h4>Satıcı: Akif Vəlizadə</h4>
+                    <button class="more-info-button">Ətraflı</button>
+                </div>
+                <!-- ! =============== slide 3 ============ -->
+                <div class="slide">
+                    <img src="./assets/image/limon.jpg" alt="Məhsul 1">
+                    <h1>Lənkəran limonu:</h1>
+                    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                    <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                    <h3>20% endirim</h3>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                    </ul>
+                    <h4>Satıcı: Akif Vəlizadə</h4>
+                    <button class="more-info-button">Ətraflı</button>
+                </div>
+            </div>
+            <button class="next slide-bt" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    </div>
+   
+</section>
 
   <!--Card-->
 
@@ -135,7 +199,7 @@
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
               <a href="#" class="product-title">Bişmiş Çörəklər</a>
-              <h6 class="price">9.99 ₼</h6>
+              <h6 class="price">1₼</h6>
             </div>
           </div>
         </div>
